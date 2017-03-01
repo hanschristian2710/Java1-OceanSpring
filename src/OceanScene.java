@@ -112,7 +112,7 @@ public class OceanScene extends GWindowEventAdapter {
 
 		// Run the animation 100 times (about 15 s)
 		this.animationCounter++;
-		if (this.animationCounter >= 100)
+		if (this.animationCounter >= 800)
 			this.window.stopTimerEvents();
 	}
 
